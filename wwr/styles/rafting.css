@@ -161,7 +161,7 @@ h1 {
     padding: 0;
     width: 100%;
     /* max-width: 1200px; */
-    margin: 0 auto;
+    margin: 20px auto;
     box-sizing: border-box;
     /* border: 2px solid rgb(21, 255, 0); */
     display: grid;
@@ -221,7 +221,7 @@ h1 {
     box-sizing: border-box;
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
