@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips</title>
+    <meta name="description" content="This page provides informaton for various options and types of trips available.">
+    <meta name="author" content="Kurt Martin Paul Schutz">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Verdana:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/x-crossedoars.jpeg" alt="Crossed Oars Logo">
+
+        <div id="navDiv">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="tripsMainDiv">
+            <div id="tmd_inner1" class="tmd_inner">
+
+                <p>For Individuals</p>
+                <!-- <p>Beta</p> -->
+                <img src="./images/rafting19_600444.jpg" alt="individual rafting trip">
+                <!-- <p id="last">Omega</p>-->
+                <p>Ready to escape the
+                    ordinary? Embark on
+                    a white-water rafting
+                    adventure designed
+                    just for you! Feel the
+                    surge of adrenaline as
+                    you navigate rushing rapids,
+                    master your paddle, and
+                    conquer the river one wave
+                    at a time.</p>
+                <div id="formDiv_tmd">
+                    <form>
+                        <br>
+                        <label for="tripDate">Trip Date:</label>
+                        <input type="date" id="tripDate" name="tripDate" required><br>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required><br>
+                        <label for="lastName">Lastname:</label>
+                        <input type="text" id="lastName" name="lastName" required><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone"><br>
+
+                        <!-- </form> -->
+                        <!-- <button type="submit" value="submit" class="submit-btn">Book Trip</button> -->
+                        <br>
+                        <input type="submit" value="Book Trip" class="submit-btn">
+                    </form>
+                </div>
+
+            </div>
+
+            <div id="tmd_inner2" class="tmd_inner">
+                <p>For Groups</p>
+
+                <img src="./images/rafting29_600333.jpg" alt="group rafting trip">
+                <!-- <p id="last">Omega</p>-->
+                <p>Gather your friends and
+                    family for an unforgettable
+                    rafting experience! Our group
+                    packages offer special rates
+                    and exclusive adventures.</p>
+
+
+                <div class="tmd_inner2_div">
+                    <!-- <p>Book a trip for your group and enjoy a special discount!</p> -->
+
+
+
+
+                    <form>
+                        <br>
+                        <label for="tripDate2">Trip Date:</label>
+                        <input type="date" id="tripDate2" name="tripDate" required><br>
+                        <label for="firstName2">First Name:</label>
+                        <input type="text" id="firstName2" name="firstName" required><br>
+                        <label for="lastName2">Lastname:</label>
+                        <input type="text" id="lastName2" name="lastName" required><br>
+                        <label for="email2">Email:</label>
+                        <input type="email" id="email2" name="email" required><br>
+                        <label for="phone2">Phone:</label>
+                        <input type="tel" id="phone2" name="phone"><br>
+                        <label for="quantity">How many in a Group?:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" step="1"><br>
+
+                        <!-- </form> -->
+                        <!-- <button type="submit" value="submit" class="submit-btn">Book Trip</button> -->
+                        <br>
+                        <input type="submit" value="Book Trip" class="submit-btn">
+                    </form>
+                </div>
+
+            </div>
+
+            <div id="tmd_inner3" class="tmd_inner">
+                <p>For Families</p>
+
+                <img src="./images/rafting53_600222.jpg" alt="family rafting trip">
+
+                <p>
+                    Make a splash with your
+                    loved ones on an unforgettable
+                    family water rafting adventure!
+                    Glide through gentle rapids,
+                    soak in breathtaking scenery,
+                    and share laughter along the way.
+
+                </p>
+
+                <div class="tmd_inner2_div" id="tmd_inner2_div3">
+                    <!-- <p>Book a trip for your group and enjoy a special discount!</p> -->
+
+                    <!-- <form>
+                                                <br>
+                                                <label for="tripDatex">Trip Date:</label>
+                                                <input type="date" id="tripDatex" name="tripDate" required><br>
+                                                <label for="firstName">First Name:</label>
+                                                <input type="text" id="firstName" name="firstName" required><br>
+                                                <label for="lastName">Lastname:</label>
+                                                <input type="text" id="lastName" name="lastName" required><br><br>
+                                                <label for="message">Tell us about your family:</label>
+                                                <textarea id="message" name="message" rows="4" cols="50"
+                                                    placeholder="Enter your message here..."></textarea><br >
+                                                
+                                                <br>
+                                                
+                                                <br>
+                                                <input type="submit" value="Book Trip" class="submit-btn">
+                                            </form> -->
+                    <div class="verticalDiv">
+                        <br><label for="tripDate3" class="inputEl">Trip Date:</label>
+                        <input type="date" class="inputEl" id="tripDate3" name="tripDate" required><br>
+                        <label for="firstName3" class="inputEl">First Name:</label>
+                        <input type="text" class="inputEl" id="firstName3" name="firstName" required><br>
+                        <label for="lastName3">Lastname:</label>
+                        <input type="text" class="inputEl" id="lastName3" name="lastName" required><br>
+                        <label for="email3" class="inputEl">Email:</label>
+                        <input type="email" class="inputEl" id="email3" name="email" required><br>
+                        <label for="phone3" class="inputEl">Phone:</label>
+                        <input type="tel" class="inputEl" id="phone3" name="phone"><br>
+                    </div>
+
+                    <div class="verticalDiv">
+                        <br><label for="tripDate4" class="inputEl">Trip Date:</label>
+                        <input type="date" class="inputEl" id="tripDate4" name="tripDate" required><br>
+                        <label for="firstName4" class="inputEl">First Name:</label>
+                        <input type="text" class="inputEl" id="firstName4" name="firstName" required><br>
+                        <label for="lastName4">Lastname:</label>
+                        <input type="text" class="inputEl" id="lastName4" name="lastName" required><br>
+                        <label for="email4" class="inputEl">Email:</label>
+                        <input type="email" id="email4" class="inputEl" name="email" required><br>
+                        <label for="phone4" class="inputEl">Phone:</label>
+                        <input type="tel" class="inputEl" id="phone4" name="phone"><br>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footerDiv">
+            <p>&copy; 2025 Rapids White Water Rafting. Kurt M.P. Schutz</p>.
+            <nav class="socialmedia">
+                <a href="www.facebook.com"><img src="images/icons/facebook.webp" alt="visit us on facebook.com"></a>
+                <a href="www.twitter.com"><img src="images/icons/twitter.webp" alt="follow us on twitter.com"></a>
+                <a href="www.instagram.com"><img src="images/icons/social-media.webp"
+                        alt="follow us on instagram.com"></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
