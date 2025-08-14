@@ -72,11 +72,7 @@ nav li {
     display: grid;
     flex: 1 1 auto;
 
-    /* list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex: 1 1 auto; */
+
 }
 
 nav li a {
@@ -230,10 +226,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    /* gap: 10px; */
 
-    /* height: 300px; */
-    /*temporary to be deleted soon....*/
 }
 
 #photoSection h2 {
@@ -274,8 +267,7 @@ h1 {
 }
 
 #photoDiv1 {
-    /* border: 2px dashed blue; */
-    /* position: absolute; */
+
     flex: 0 1 auto;
     grid-column: 1 / 2;
     grid-row: 2 / 4;
@@ -285,18 +277,16 @@ h1 {
 }
 
 #photoDiv2 {
-    /* border: 2px dashed blue; */
-    /* position: absolute; */
+
     flex: 0 1 auto;
     grid-column: 2 / 3;
     grid-row: 2 / 4;
     width: 100%;
-    /* overflow: hidden; */
+
 }
 
 #photoDiv3 {
-    /* border: 2px dashed blue; */
-    /* position: absolute; */
+
     flex: 0 1 auto;
     grid-column: 3 / 4;
     grid-row: 2 / 4;
@@ -305,8 +295,7 @@ h1 {
 }
 
 #photoDiv4 {
-    /* border: 2px dashed blue; */
-    /* position: absolute; */
+
     flex: 0 1 auto;
     grid-column: 4 / 5;
     grid-row: 2 / 4;
@@ -316,8 +305,7 @@ h1 {
 }
 
 #photoDiv5 {
-    /* border: 2px dashed blue; */
-    /* position: absolute; */
+
     flex: 0 1 auto;
     grid-column: 5 / 6;
     grid-row: 2 / 4;
@@ -432,10 +420,7 @@ footer {
 
 }
 
-/* #contactMainDiv01CenterSpan {
-    display: inline-block;
-    height: 100%;
-} */
+
 #contactMainDiv01RightSpan {
     display: flex;
     flex-direction: column;
@@ -463,10 +448,7 @@ footer {
     background-color: rgb(216, 228, 111);
 }
 
-/* .employeeDivs p {
-    margin-top: 0px;
-    margin-bottom: 5px;
-} */
+
 
 .employeeDivs figure {
     margin: 0;
@@ -490,10 +472,9 @@ label {
 #SubmitButton {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    /* border: none; */
-    /* margin-top: 20px; */
+
     padding: 7px 15px;
-    /* padding: 15px 30px; */
+
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
@@ -502,7 +483,7 @@ label {
 
 h5 span {
     font-weight: bold;
-    /* color: var(--secondary-color); */
+
     color: blue;
 }
 
@@ -510,10 +491,7 @@ h5 span {
     position: relative;
     width: 100%;
     height: auto;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-items: center; */
-    /* justify-content: center; */
+
 }
 
 #homeDivFirst img {
@@ -638,14 +616,12 @@ h5 span {
     height: 35%;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
-    /* justify-content: space-between; */
+
     justify-content: space-around;
-    /* align-items: center; */
-    /* justify-content: center; */
+
     align-items: center;
-    /*Center vertically*/
-    /* justify-content: center; */
+
+
     background-color: rgba(44, 185, 115, 0.8);
     color: white;
     margin: 2px;
@@ -658,9 +634,7 @@ h5 span {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
-    /* height: 100%; */
-    /* border: 1px solid red; */
+
 }
 
 .homeDiv2 div img {
@@ -673,10 +647,7 @@ h5 span {
 
 }
 
-.homeDiv2 div form {
-    /* border: 1px solid red; */
-    /* height: 100%; */
-}
+
 
 #formDiv {
     border: 2px solid blue;
@@ -701,21 +672,12 @@ h5 span {
     height: 60px;
     width: auto;
     object-fit: cover;
-    /* margin: 0 auto; */
-    /* padding: 0; */
-    /* align-self: center; */
+
 }
 
-/* .homeDivFirst_innerDiv div p {
-    padding: 0;
-    margin: 0;
-    font-size: 0.8rem;
-    text-align: center;
-} */
+
 #tripsMainDiv {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); */
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -754,10 +716,7 @@ h5 span {
 #tmd_inner1 {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* justify-content: space-between; */
-    /* justify-content: space-around; */
+
 
 }
 
@@ -770,8 +729,7 @@ h5 span {
 
 #tmd_inner1 {}
 
-/* #tmd_inner1 #last {    */
-/* margin-top: auto; */
+
 .submit-wrapper {
     margin-top: auto;
 }
@@ -815,13 +773,7 @@ h5 span {
 .tmd_inner2_div {
     border: 2px dashed blue;
     height: auto;
-    /* display: grid; */
-    /* grid-template-columns: repeat(4, 1fr); */
-    /* grid-template-rows: repeat(4, 1fr); */
-    /* flex-direction: column; */
-    /* flex-direction: row; */
-    /* justify-content: flex-end; */
-    /* flex: 1 1 auto; */
+
     align-items: flex-start;
     margin-top: auto;
 
